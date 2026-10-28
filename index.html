@@ -6,22 +6,14 @@
   <meta name="theme-color" content="#f6f0e7">
   <title>Small Acts, Strong Habits</title>
   <style>
-    :root {
-      --ink: #24352f;
-      --muted: #65736c;
-      --paper: #efe6d4;
-      --green: #315d4b;
-      --sage: #dce7dc;
-      --gold: #d5a85f;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      background: var(--paper);
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.6;
-    }
+    :root { --ink:#24352f; --muted:#65736c; --paper:#fbf8f2; --green:#315d4b; --gold:#d5a85f; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:flex; flex-direction:column; color:var(--ink); background:var(--paper); font-family:Georgia,"Times New Roman",serif; line-height:1.6; }
+    nav { display:flex; justify-content:center; padding:16px 20px; background:var(--green); }
+    nav a { color:#fffaf0; text-decoration:none; font:700 .9rem Arial,sans-serif; padding:8px 14px; border:1px solid rgba(255,255,255,.35); border-radius:999px; }
+    nav a:hover { background:rgba(255,255,255,.12); }
+    header { padding:65px 20px 45px; text-align:center; background:linear-gradient(135deg,#edf2e9,#fbf8f2 75%); }
+    
     .hero {
       padding: 76px 22px 62px;
       text-align: center;
